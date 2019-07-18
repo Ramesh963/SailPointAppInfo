@@ -1,0 +1,9 @@
+NCDWIN7PXD16165
+
+
+
+java -jar agent.jar -jnlpUrl http://localhost:9090/computer/NCDWIN7PXD16165/slave-agent.jnlp -secret 903c02daa5e5d9704acf31c27f1b8cd3143bc4ee3dbab97ade153052608547c8 
+
+
+
+NBC-Proxy1.woolworths.com.au

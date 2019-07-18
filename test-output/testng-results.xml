@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="459941" started-at="2019-07-16T10:44:54Z" finished-at="2019-07-16T10:52:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="459941" started-at="2019-07-16T10:44:54Z" finished-at="2019-07-16T10:52:34Z">
+      <class name="com.sailpoint.ApplicationOnBoarding.AppOnBoardingForGoogleApps">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.sailpoint.ApplicationOnBoarding.AppOnBoardingForGoogleApps@4f7d0008]" name="beforeClass" is-config="true" duration-ms="80" started-at="2019-07-16T10:44:54Z" finished-at="2019-07-16T10:44:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.sailpoint.ApplicationOnBoarding.AppOnBoardingForGoogleApps@4f7d0008]" name="beforeTest" is-config="true" duration-ms="22326" started-at="2019-07-16T10:44:54Z" finished-at="2019-07-16T10:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="AppInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sailpoint.ApplicationOnBoarding.AppOnBoardingForGoogleApps@4f7d0008]" name="AppInfo" duration-ms="429401" started-at="2019-07-16T10:45:20Z" data-provider="fetchdata" finished-at="2019-07-16T10:52:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google Apps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Google Apps]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google Apps - Revokers]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Google Apps - Application Owners]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ Google Apps - Direct]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[672601788626-8t9sr5e82abn1qvkq9h94jg73rb6o9co.apps.googleusercontent.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[uyDM0V-ZwqNhAyxJlehCHacN]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Test Successful]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[account]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[primaryEmail]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[objectID]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[role]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[roleName]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[roleId]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[group]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[objectID]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Google Apps Correlation Config]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[EmployeeNumber]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[employeeid]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[ADID]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[adnswro]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[ADID]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[adpel]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[ADID]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[adbigw]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[EmployeeNumber]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[ADID]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[Google Apps Correlation Rule]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[Google Apps Customization Rule]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[Google Apps - Application Owners]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[Google Apps - Revokers]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[Google Apps - Certifiers]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[Google Apps Account Aggregation]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Google Apps Account Group Aggregation]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[Google Apps User Role Assignments Task]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[Google Apps Sequential Task Launcher]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppInfo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.sailpoint.ApplicationOnBoarding.AppOnBoardingForGoogleApps@4f7d0008]" name="afterMethod" is-config="true" duration-ms="11" started-at="2019-07-16T10:52:30Z" finished-at="2019-07-16T10:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sailpoint.ApplicationOnBoarding.AppOnBoardingForGoogleApps@4f7d0008]" name="afterTest" is-config="true" duration-ms="4187" started-at="2019-07-16T10:52:30Z" finished-at="2019-07-16T10:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.sailpoint.ApplicationOnBoarding.AppOnBoardingForGoogleApps -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

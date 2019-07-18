@@ -1,0 +1,67 @@
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main createEngine
+INFO: Setting up agent: NCDWIN7PXD16165
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener <init>
+INFO: Jenkins agent is running in headless mode.
+May 06, 2019 1:21:39 PM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3.29
+May 06, 2019 1:21:39 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using G:\Security -Projects\SailpointAppInfo\remoting as a remoting work directory
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://10.166.24.139:9090/]
+May 06, 2019 1:21:39 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: 10.166.24.139
+  Agent port:    59754
+  Identity:      bc:78:ae:67:93:e3:b3:d9:f4:71:c6:90:39:7f:fd:3a
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to 10.166.24.139:59754
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: bc:78:ae:67:93:e3:b3:d9:f4:71:c6:90:39:7f:fd:3a
+May 06, 2019 1:21:39 PM org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer onRecv
+INFO: [JNLP4-connect connection to NCDWIN7PXD16373.wowcorp.com.au/10.166.24.139:59754] Local headers refused by remote: NCDWIN7PXD16165 is already connected to this master. Rejecting this connection.
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Protocol JNLP4-connect encountered an unexpected exception
+java.util.concurrent.ExecutionException: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: NCDWIN7PXD16165 is already connected to this master. Rejecting this connection.
+	at org.jenkinsci.remoting.util.SettableFuture.get(SettableFuture.java:223)
+	at hudson.remoting.Engine.innerRun(Engine.java:614)
+	at hudson.remoting.Engine.run(Engine.java:474)
+Caused by: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: NCDWIN7PXD16165 is already connected to this master. Rejecting this connection.
+	at org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer.newAbortCause(ConnectionHeadersFilterLayer.java:378)
+	at org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer.onRecvClosed(ConnectionHeadersFilterLayer.java:433)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:816)
+	at org.jenkinsci.remoting.protocol.FilterLayer.onRecvClosed(FilterLayer.java:287)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.onRecvClosed(SSLEngineFilterLayer.java:172)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:816)
+	at org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:154)
+	at org.jenkinsci.remoting.protocol.impl.BIONetworkLayer.access$1500(BIONetworkLayer.java:48)
+	at org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader.run(BIONetworkLayer.java:247)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at java.lang.Thread.run(Unknown Source)
+	Suppressed: java.nio.channels.ClosedChannelException
+		... 7 more
+
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to 10.166.24.139:59754
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Server reports protocol JNLP4-plaintext not supported, skipping
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Server reports protocol JNLP3-connect not supported, skipping
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Server reports protocol JNLP2-connect not supported, skipping
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Server reports protocol JNLP-connect not supported, skipping
+May 06, 2019 1:21:39 PM hudson.remoting.jnlp.Main$CuiListener error
+SEVERE: The server rejected the connection: None of the protocols were accepted
+java.lang.Exception: The server rejected the connection: None of the protocols were accepted
+	at hudson.remoting.Engine.onConnectionRejected(Engine.java:682)
+	at hudson.remoting.Engine.innerRun(Engine.java:639)
+	at hudson.remoting.Engine.run(Engine.java:474)
+
